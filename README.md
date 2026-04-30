@@ -43,6 +43,7 @@
 - **默认模型**：`deepseek-chat`（性价比较高，适合日常任务）
 - **运行方式**：本地终端 CLI 模式，未接入任何即时通讯平台
 - **注意事项**：Agent 模式下 token 消耗较快，建议先用普通对话模式验证功能后再切换
+- **记忆功能**：长期记忆默认开启，测试时建议定期清理 `~/.cowagent/memory/` 目录下的本地记忆文件，避免测试数据干扰正式使用
 
 ## 声明
 
@@ -68,6 +69,4 @@
 
 # 企业服务
 
-<a href="https://link-ai.tech" target="_blank"><img width="650" src="https://cdn.link-ai.tech/image/link-ai-intro.jpg"></a>
-
-> [LinkAI](https://link-ai.tech/) 是面向企业和个人的一站式 AI 智能体平台，聚合多模态大模型、知识库、技能、工作流等能力，支持一键接入主流平台并管理，支持 Saa
+<a href="https://link-ai.tech" target="_blank"><img width=
