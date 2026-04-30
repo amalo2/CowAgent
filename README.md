@@ -45,6 +45,7 @@
 - **注意事项**：Agent 模式下 token 消耗较快，建议先用普通对话模式验证功能后再切换
 - **记忆功能**：长期记忆默认开启，测试时建议定期清理 `~/.cowagent/memory/` 目录下的本地记忆文件，避免测试数据干扰正式使用
 - **日志级别**：本地调试时将 `log_level` 设为 `DEBUG` 便于排查工具调用链路，正式使用时改回 `INFO` 减少输出噪音
+- **最大对话轮数**：本地测试时将 `max_turns` 设为 `5`，避免 Agent 模式下因任务规划循环过长导致 token 超支；正式任务时视需要调整为 `10` 或更高
 
 ## 声明
 
@@ -64,4 +65,4 @@
 
 添加小助手微信加入开源项目交流群：
 
-<img width="140" src="https://img-1317903499.cos.ap-guangzhou.myqcloud.com/docs/open-community.png"
+<img width="140" src="htt
