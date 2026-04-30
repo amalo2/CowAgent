@@ -19,4 +19,7 @@ ENV LC_ALL=C.UTF-8
 # Set a working directory for clarity
 WORKDIR /app
 
+# Keep container running in foreground and ensure clean shutdown on SIGTERM
+STOPSIGNAL SIGTERM
+
 ENTRYPOINT ["/entrypoint.sh"]
