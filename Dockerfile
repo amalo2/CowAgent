@@ -13,7 +13,7 @@ ENV PYTHONIOENCODING=utf-8
 ENV LANG=C.UTF-8
 ENV LC_ALL=C.UTF-8
 
-# Limit Python's hash randomization for reproducible behavior during debugging
-ENV PYTHONHASHSEED=0
+# Disable hash randomization - note: only useful for debugging, remove in production
+# ENV PYTHONHASHSEED=0
 
 ENTRYPOINT ["/entrypoint.sh"]
