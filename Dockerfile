@@ -16,4 +16,7 @@ ENV LC_ALL=C.UTF-8
 # Disable hash randomization - note: only useful for debugging, remove in production
 # ENV PYTHONHASHSEED=0
 
+# Set a working directory for clarity
+WORKDIR /app
+
 ENTRYPOINT ["/entrypoint.sh"]
