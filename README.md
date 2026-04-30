@@ -44,6 +44,7 @@
 - **运行方式**：本地终端 CLI 模式，未接入任何即时通讯平台
 - **注意事项**：Agent 模式下 token 消耗较快，建议先用普通对话模式验证功能后再切换
 - **记忆功能**：长期记忆默认开启，测试时建议定期清理 `~/.cowagent/memory/` 目录下的本地记忆文件，避免测试数据干扰正式使用
+- **日志级别**：本地调试时将 `log_level` 设为 `DEBUG` 便于排查工具调用链路，正式使用时改回 `INFO` 减少输出噪音
 
 ## 声明
 
@@ -63,10 +64,4 @@
 
 添加小助手微信加入开源项目交流群：
 
-<img width="140" src="https://img-1317903499.cos.ap-guangzhou.myqcloud.com/docs/open-community.png">
-
-<br/>
-
-# 企业服务
-
-<a href="https://link-ai.tech" target="_blank"><img width=
+<img width="140" src="https://img-1317903499.cos.ap-guangzhou.myqcloud.com/docs/open-community.png"
