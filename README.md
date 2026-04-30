@@ -36,6 +36,14 @@
 
 > 这是我个人学习和研究用的 fork。主要用于在本地测试 Agent 功能，以及探索与 DeepSeek 模型的集成。如有问题请前往[上游项目](https://github.com/zhayujie/CowAgent)提交 issue。
 
+### 本地运行配置参考
+
+我在本地测试时使用的主要配置（供自己备忘）：
+
+- **默认模型**：`deepseek-chat`（性价比较高，适合日常任务）
+- **运行方式**：本地终端 CLI 模式，未接入任何即时通讯平台
+- **注意事项**：Agent 模式下 token 消耗较快，建议先用普通对话模式验证功能后再切换
+
 ## 声明
 
 1. 本项目遵循 [MIT 开源协议](/LICENSE)，主要用于技术研究和学习，使用本项目时需遵守所在地法律法规、相关政策以及企业章程，禁止用于任何违法或侵犯他人权益的行为。任何个人、团队和企业，无论以何种方式使用该项目、对何对象提供服务，所产生的一切后果，本项目均不承担任何责任。
@@ -62,6 +70,4 @@
 
 <a href="https://link-ai.tech" target="_blank"><img width="650" src="https://cdn.link-ai.tech/image/link-ai-intro.jpg"></a>
 
-> [LinkAI](https://link-ai.tech/) 是面向企业和个人的一站式 AI 智能体平台，聚合多模态大模型、知识库、技能、工作流等能力，支持一键接入主流平台并管理，支持 SaaS、私有化部署等多种模式，可免部署在线运行[CowAgent 助理](https://link-ai.tech/cowagent/create)。
->
-> LinkAI 目前已在智能客服、私域运营、企业效率助手等场景积累了丰富的 AI 解决方案，在消费、健康、文教、
+> [LinkAI](https://link-ai.tech/) 是面向企业和个人的一站式 AI 智能体平台，聚合多模态大模型、知识库、技能、工作流等能力，支持一键接入主流平台并管理，支持 Saa
