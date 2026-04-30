@@ -9,4 +9,8 @@ ENV PYTHONUNBUFFERED=1
 # Set default encoding to UTF-8 to avoid issues with Chinese characters
 ENV PYTHONIOENCODING=utf-8
 
+# Set locale to support UTF-8 encoding properly
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
+
 ENTRYPOINT ["/entrypoint.sh"]
